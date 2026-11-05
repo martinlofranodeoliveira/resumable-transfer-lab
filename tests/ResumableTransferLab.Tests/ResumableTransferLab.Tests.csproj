@@ -1,0 +1,11 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>ResumableTransferLab.Tests</RootNamespace>
+    <AssemblyName>ResumableTransferLab.Tests</AssemblyName>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\src\ResumableTransferLab\ResumableTransferLab.csproj" />
+    <ProjectReference Include="..\..\src\ResumableTransferLab.Cli\ResumableTransferLab.Cli.csproj" />
+  </ItemGroup>
+</Project>
